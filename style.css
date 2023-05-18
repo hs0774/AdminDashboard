@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    grid-template-rows: 165px 700px;
+
+}
+.sidebar{
+ background-color: steelblue;
+ grid-row: 1/3;
+ display: grid;
+ grid-template-rows: 100px 200px 125px;
+}
+
+.Dashboard{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+ background-color: white;
+ display: grid;
+ grid-template-rows: 1fr 1fr;
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top-left{
+    display: flex;
+    padding-left: 20px;
+}
+.top-right{
+    display: flex;
+    padding-right: 20px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-left{
+    display: flex;
+    padding-left: 20px;
+}
+.bottom-right{
+    display: flex;
+    padding-right: 20px;   
+}
+.same{
+    gap:10px;
+}
+.main-content{
+    background-color: gray;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+.left{
+    padding-left: 20px;
+}
+.article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 35px;
+}
+ul {
+    display:flex;
+    flex-direction: column;
+    list-style:none;
+    padding-left: 10px;
+    justify-content: space-between;
+ }
+li{
+    padding:5px 10px;
+}
+.right{
+    display: grid;
+    grid-template-rows: 3fr 5fr;
+    padding-left: 20px;
+}
+.card{
+    border-left:solid 4px green;
+    padding-left: 20px;
+    height: 175px;
+}
+.cardhead{
+    padding-left: 20px;
+}
+.tweet{
+    display: flex;
+    padding-left: 10px;
+}
+.cardd{
+    padding-left: 10px;
+    font-size: 12px;
+}
+.rightpara{
+    padding-left: 10px;
+}
+.Announcments{
+    height: 250px;
+}
+.Trending{
+    height: 225px;
+}
+
+.threeitems{
+    display: flex;
+    justify-content: space-around;
+}
